@@ -1,0 +1,18 @@
+annotation/
+    rt.family.and.type.txt: annotation file recording RT families  and their type 
+
+code/
+    analyze.enrichment.R :  file to analyze chip-seq data, generate heatmap file
+    
+RData/
+    alignment.RData: RData file recoding raw chip-seq read count matrix and library size. It could be reproduced by the code under the ../server-side folder, or downloaded at  .
+
+signal.track/
+     H3K4me3 fold change track across oocyte,2cell,4cell,8cell,morula stages. They are loaded into IGV to generate the JPEG figures in results folder. Theses files could be reproduced by the code under the ../server-side folder, or downloaded at .    
+
+results/
+     gao.oocyte.csv gao.2cell.csv gao.4cell.csv gao.8cell.csv gao.morula.csv: H3K4me3 family-wise enrichment analyze results for different stages
+     gao.zscore.matrix.csv: Pooling the enrichment zscore  of all RT into one matrix.Each row is associated with a RT family and column associated with stage.
+     gao.M.matrix.csv:      Pooling the enrichment M value of all RT into one matrix.Each row is associated with a RT family and column associated with stage.
+     Figures.pptx:          figures generated for Andrew by Ke
+     *.jpg:                 Interesting gene cases picked out by Andrew

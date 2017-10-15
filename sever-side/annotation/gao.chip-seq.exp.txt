@@ -1,0 +1,161 @@
+GLOBAL_BAM_DIRECTORY:alignment
+GLOBAL_TMP_DIRECTORY:macs2.output
+GLOBAL_PEAK_DIRECTORY:peaks/broadPeak/mapq.eq.3
+GLOBAL_SIGNAL_DIRECTORY:signal
+GLOBAL_SPECIES:mm
+GLOBAL_CHR_SIZE_FILE:/srv/persistent/keliu/genomes/mm10/mm10.chr.size
+GLOBAL_SINGLE_END_HISTONE:-B --SPMR  -q 0.05  --keep-dup all --nomodel --extsize 200 --broad
+GLOBAL_PAIRED_END_HISTONE:-B --SPMR  -q 0.05  --keep-dup all -f BAMPE  --broad
+
+
+EXP_NAME:gao.2cell.H3K4me3.1
+IP:    2cell.H3K4me3.1.unique.rmdup.bam 
+INPUT: 2cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.2cell.H3K4me3.2
+IP:    2cell.H3K4me3.2.unique.rmdup.bam 
+INPUT: 2cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.2cell.H3K4me3.3
+IP:    2cell.H3K4me3.3.unique.rmdup.bam 
+INPUT: 2cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.2cell.H3K4me3
+IP:    2cell.H3K4me3.1.unique.rmdup.bam 2cell.H3K4me3.2.unique.rmdup.bam  2cell.H3K4me3.3.unique.rmdup.bam
+INPUT: 2cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+
+EXP_NAME:gao.4cell.H3K4me3.1
+IP:    4cell.H3K4me3.1.unique.rmdup.bam 
+INPUT: 4cell.input.unique.rmdup.bam
+MODE:  GLOBAL_SINGLE_END_HISTONE
+
+
+
+EXP_NAME:gao.4cell.H3K4me3.2
+IP:    4cell.H3K4me3.2.unique.rmdup.bam 
+INPUT: 4cell.input.unique.rmdup.bam
+MODE:  GLOBAL_SINGLE_END_HISTONE
+
+
+EXP_NAME:gao.4cell.H3K4me3.3
+IP:    4cell.H3K4me3.3.unique.rmdup.bam 
+INPUT: 4cell.input.unique.rmdup.bam
+MODE:  GLOBAL_SINGLE_END_HISTONE
+
+
+
+EXP_NAME:gao.4cell.H3K4me3
+IP:    4cell.H3K4me3.1.unique.rmdup.bam 4cell.H3K4me3.2.unique.rmdup.bam  4cell.H3K4me3.3.unique.rmdup.bam
+INPUT: 4cell.input.unique.rmdup.bam
+MODE:  GLOBAL_SINGLE_END_HISTONE
+
+
+
+
+EXP_NAME:gao.8cell.H3K4me3.1
+IP:    8cell.H3K4me3.1.unique.rmdup.bam 
+INPUT: 8cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+EXP_NAME:gao.8cell.H3K4me3.2
+IP:    8cell.H3K4me3.2.unique.rmdup.bam 
+INPUT: 8cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+EXP_NAME:gao.8cell.H3K4me3
+IP:    8cell.H3K4me3.1.unique.rmdup.bam 8cell.H3K4me3.2.unique.rmdup.bam
+INPUT: 8cell.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+EXP_NAME:gao.morula.H3K4me3.1
+IP:    morula.H3K4me3.1.unique.rmdup.bam 
+INPUT: morula.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.morula.H3K4me3.2
+IP:    morula.H3K4me3.2.unique.rmdup.bam 
+INPUT: morula.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.morula.H3K4me3.3
+IP:    morula.H3K4me3.3.unique.rmdup.bam 
+INPUT: morula.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+EXP_NAME:gao.morula.H3K4me3
+IP:    morula.H3K4me3.1.unique.rmdup.bam morula.H3K4me3.2.unique.rmdup.bam  morula.H3K4me3.3.unique.rmdup.bam
+INPUT: morula.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+
+EXP_NAME:gao.MIIOocyte.H3K4me3
+IP:    MIIOocyte.H3K4me3.1.unique.rmdup.bam MIIOocyte.H3K4me3.2.unique.rmdup.bam  MIIOocyte.H3K4me3.3.unique.rmdup.bam   MIIOocyte.H3K4me3.4.unique.rmdup.bam
+INPUT: MIIOocyte.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+EXP_NAME:gao.MIIOocyte.H3K4me3.1
+IP:    MIIOocyte.H3K4me3.1.unique.rmdup.bam 
+INPUT: MIIOocyte.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.MIIOocyte.H3K4me3.2
+IP:    MIIOocyte.H3K4me3.2.unique.rmdup.bam 
+INPUT: MIIOocyte.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.MIIOocyte.H3K4me3.3
+IP:    MIIOocyte.H3K4me3.3.unique.rmdup.bam
+INPUT: MIIOocyte.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+EXP_NAME:gao.MIIOocyte.H3K4me3.4
+IP:    MIIOocyte.H3K4me3.4.unique.rmdup.bam 
+INPUT: MIIOocyte.input.unique.rmdup.bam
+MODE:  GLOBAL_PAIRED_END_HISTONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
